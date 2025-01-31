@@ -54,14 +54,8 @@ curl --get http://localhost:7071/api/HttpTrigger1?cpf=32656345820
 ### Portas
 HTTP server on port :7071 <br />
 
-### HTTP COM APIKEY
- - Execute o curl abaixo ou use um aplicação client REST para realizar a requisição.   
-    curl --request GET \
-      --url http://localhost:7071/ \
-      --header 'API_KEY: ABC123' \
-      --header 'User-Agent: insomnia/10.0.0'
 
-### HTTP POR IP DE ORIGEM
+### HTTP
  - Execute o curl abaixo ou use um aplicação client REST para realizar a requisição.   
     curl --request GET \
       --url 'http://localhost:7071/api/HttpTrigger1?cpf=01125711078' \
