@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "valida_cpf_az204_function": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7203",
+      "launchBrowser": false
+    }
+  }
+}
